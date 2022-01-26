@@ -21,5 +21,5 @@ jobs:
     - name: create-issue
       uses: ./.github/actions/issue-maker
       with:
-        repo-token: ${{secrets.GITHuB_TOKEN}}
+        repo-token: $undefined
         joke: ${{steps.jokes.outputs.joke-output}}
